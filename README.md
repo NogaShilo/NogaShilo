@@ -1,5 +1,8 @@
 ### Hello there 👋
 
+⚡ Fun fact: IF Pinocchio says "My Nose will grow now", it would cause a paradox.
+
+
 <!--
 **NogaShilo/NogaShilo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
