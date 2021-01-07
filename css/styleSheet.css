@@ -1,0 +1,837 @@
+html {
+  scroll-behavior: smooth;
+}
+
+*, body{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  
+ }
+body {
+  
+ background: rgb(156,207,210);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, 
+                                  rgba(0,0,0,1) 60%, 
+                                  rgba(0,0,0,0.6) 70%,
+                                  rgba(60,60,60,0.7) 75%,
+                                 
+                                  rgba(255,131, 129, 0.6) 79%,
+                                   
+                                  
+                                  rgba(180,180,180,0.9) 100%);
+ 
+ position: relative; 
+  height: 100%;
+  width: 100%; 
+
+  }
+
+.container-fluid {
+  
+  margin: 0;
+  padding: 0;
+
+}
+
+/* navigation bars */
+#navbarTogglerBtn{
+  border: none;
+  opacity: 0.7;
+  
+}
+
+#navbarTogglerBtn:hover, #navbarTogglerBtn:focus {
+  border: none;
+  opacity: 1;
+  box-shadow: 1px 1px 5px #bcbcbc, 3px 3px 10px #f0f0f0;
+  outline: none;
+}
+.nav {
+  border: none;
+    
+
+}
+
+
+
+
+#myNav .nav-link {
+ 
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.2em;
+ 
+  color: #000;
+  text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+
+    
+  border-bottom: 4px solid transparent;
+
+
+
+}
+
+#myNav .nav-link:hover,
+#myNav .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .5);
+}
+
+
+
+#navbarMenu .active {
+  opacity: 1;
+  color: #fff;
+  border-bottom-color: #fff;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+ 
+}
+
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
+}
+
+
+
+
+/* end navigation bars */
+
+
+/* main page */
+
+#mainPage{
+ height: 100vh;
+ background: url('../images/mainBg.jpg') no-repeat center center fixed;
+}
+
+
+
+
+
+#myName {
+  color: #ffbeb4;
+  margin-top: 10%;
+    font-family: "Luckiest Guy", cursive;
+  font-size: 6em;
+
+    padding: 0;
+
+  
+  text-shadow: 0 0.1em 20px #000, 0.05em -0.03em 0 #000,
+    0.05em 0.005em 0 #000, 0em 0.08em 0 #000,
+    0.05em 0.08em 0 #000, 0px -0.03em 0 #000,
+    -0.03em -0.03em 0 #000, -0.03em 0.08em 0 #000, -0.03em 0 0 #000;
+  }
+  h1 span {
+    transform: scale(0.9);
+    display: inline-block;
+  }
+  h1 span:first-child {
+    animation: bop 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite
+      alternate;
+  }
+  h1 span:last-child {
+    animation: bopB 1s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards
+      infinite alternate;
+  }
+
+
+@keyframes bop {
+  0% {
+    transform: scale(0.9);
+  }
+  50%,
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes bopB {
+  0% {
+    transform: scale(0.9);
+  }
+  80%,
+  100% {
+    transform: scale(1) rotateZ(-3deg);
+  }
+}
+
+
+/* contact me */
+
+
+#social-part a{
+  margin: 5%;
+
+}
+#social-part .fa-linkedin{
+color: #000;
+text-shadow: 2px 4px 5px #007bb5;
+}
+
+#social-part .fa-envelope-square{
+color: #000;
+text-shadow: 2px 4px 5px #f39c12;
+}
+  
+
+.social:hover, .social:focus {
+   
+     -webkit-transform: scale(1.4);
+     -moz-transform: scale(1.4);
+     -o-transform: scale(1.4);
+ }
+ .social {
+     -webkit-transform: scale(1.2);
+     -moz-transform: scale(1.2);
+     -o-transform: scale(1.2);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+
+.fa-linkedin:hover, .fa-linkedin:focus{
+    color: #007bb5 !important;
+    text-shadow: none !important;
+
+}
+
+
+.fa-envelope-square:hover, .fa-envelope-square:focus{
+     color: #f39c12 !important;
+     text-shadow: none !important;
+ } 
+
+
+
+
+
+/* end contact me*/
+
+ /* introMainPage */
+#introMainPage{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5em;
+  margin: 5%;
+}
+#introMainPage h5{
+  font-family: 'Frijole', cursive;
+  font-size: 1.5em;
+
+}
+#webDevIntro {
+  font-family: 'Righteous', cursive;
+
+
+}
+#love{
+  color: #ee82ee;
+  font-family: 'Redressed', cursive;
+  font-size: 1.2em;
+  text-shadow: 1px 1px 1px #000;
+
+  
+}
+
+
+
+.charIntro{
+font-family: 'Emilys Candy', cursive;
+}
+.languageIntro{
+  font-family: 'Dancing Script', cursive;
+
+}
+
+
+
+/* end introMainPage */
+
+/* end main page */
+/* education page */
+#skillsPage{
+
+height: 100vh;
+
+}
+
+div#skillsContainer.container{
+  margin-top: 20%;
+}
+.fa-bootstrap {
+  color: #563d7c;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: bounce;
+  animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
+}
+
+.fa-js{
+  color: #f0db4f;
+  animation-duration: 2.7s;
+  animation-iteration-count: infinite;
+  animation-name: bounce;
+  animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
+
+}
+.fa-css3-alt {
+  color: #2299f8;
+  animation-duration: 2.2s;
+  animation-iteration-count: infinite;
+  animation-name: bounce;
+  animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
+
+}
+.fa-html5 {
+  color: #e44d26;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-name: bounce;
+  animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
+}
+
+   @keyframes bounce {
+        0%   { transform: scale(1,1)      translateY(0); }
+        10%  { transform: scale(1.1,.9)   translateY(0); }
+        30%  { transform: scale(.9,1.1)   translateY(-100px); }
+        50%  { transform: scale(1.05,.95) translateY(0); }
+        57%  { transform: scale(1,1)      translateY(-7px); }
+        64%  { transform: scale(1,1)      translateY(0); }
+        100% { transform: scale(1,1)      translateY(0); }
+    }
+#skillIcons {
+ 
+  margin: 5%;
+  
+  text-shadow: 1px 1px 1px #000, 2px 2px 5px #000000cf, 4px 4px 8px #000000cf;
+  
+} 
+
+
+
+#skillIcons i:hover, #skillIcons i:focus {
+  opacity: 0;
+}
+
+
+#myEducationLinks{
+  margin-top: 10%;
+  margin-bottom: 10%;
+
+}
+ #myEducationLinks h3{
+  font-size: 1.8em;
+  font-family: 'Dancing Script', cursive;
+  color: #3cb371;
+  text-shadow: 1px 1px 1px #3c3c3c;
+
+ }
+
+
+
+.credential h5 button, .fa-certificate {
+   font-family: 'Righteous', cursive;
+  font-weight: bold;
+  font-size: 1em;
+  text-shadow: 0px 15px 15px #234D3C;
+  border: none;
+  border-radius: none;
+   background: -webkit-linear-gradient(45deg, #3cb371, #1295e8 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+
+  
+  }
+
+
+.credential p {
+  
+   font-size: 1em;
+   font-family: 'Redressed', cursive;
+     background: -webkit-linear-gradient(45deg, #3cb371, #1295e8 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    left: 5%;
+
+   
+  
+  
+
+}
+
+
+
+
+.credential a {
+  
+  font-size: 1em;
+  font-family: 'Redressed', cursive;
+  cursor: pointer;
+  color: #1295e8;
+  letter-spacing: 1.5px;
+    -webkit-transition: letter-spacing .5s ease;
+  -moz-transition: letter-spacing .5s ease;
+  -o-transition: letter-spacing .5s ease;
+  transition: letter-spacing .5s ease;
+  text-decoration-line: underline;
+  position: relative;
+  left: 5%;
+
+
+}
+
+.credential a:hover, .credential a:focus {
+  
+  text-shadow: 3px 3px 6px #3cb371, 6px 6px 12px #1295e8;
+  
+  letter-spacing: 3px;
+  
+}
+
+/* end enducation page */
+
+/* my work page */
+
+
+#myWorkPage{
+  background: url('../images/workBg.jpg') no-repeat center center fixed;
+
+}
+ #myWorkLinks {
+  margin: 10%;
+  padding-top: 5%;
+ }
+
+
+.link { 
+
+  padding: 10px;
+  padding-top: 40px;
+   font-family: 'Righteous',cursive;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 50px;
+
+}
+
+.link a {
+   color: #000;
+  text-decoration: none;
+
+}
+
+
+.link a .fa-github {
+  color: #2ea44f;
+
+}
+.link a .fa-codepen {
+  text-shadow: 1px 1px 2px #ababab, 2px 2px 4px #787878;
+
+
+}
+
+
+/* fading links*/
+
+#myWorkLinks { 
+  visibility: hidden; 
+}
+
+
+#myWorkLinks > * { 
+  visibility: visible; 
+}
+
+
+#myWorkLinks > * { 
+  transition: opacity 150ms linear 100ms, transform 150ms ease-in-out 100ms; 
+}
+
+
+#myWorkLinks:hover > * { 
+  opacity: 0.4; transform: scale(0.9); 
+}
+
+
+#myWorkLinks > *:hover { 
+  opacity: 1; transform: scale(1); transition-delay: 0ms, 0ms; 
+}
+
+
+
+
+.card .card-body h5{
+  font-family: 'Righteous',cursive;
+  color: #000;
+}
+.card-text{
+  font-family: 'Redressed', cursive;
+  color:#000;
+}
+.card a{
+  text-decoration: none;
+}
+.card-text small:hover, .card-text small:focus{
+  text-decoration-line: underline;
+}
+/* end my work page */
+
+/* about me page */
+
+#aboutMePage {
+background: rgba(255,255,255, 0.7)
+
+
+}
+
+
+
+
+.carousel-indicators li{
+  border-radius: 100%;
+  height: 1em;
+  width: 1em;
+  background-color: #000000;
+
+
+
+}
+.fa-angle-right, .fa-angle-left{
+  color: #000;
+  text-shadow: 1px 1px 5px #bcbcbc, 2px 2px 3px #3c3c3c, 3px 3px 3px #000;
+}
+
+#favoriteDayItem {
+  font-family: 'Miltonian Tattoo',cursive;
+  color: #000;
+  
+  position: absolute;
+    right: 0;
+    top: 5%;
+    left: 50%;
+    text-shadow: 3px 3px 5px #3c3c3c, 5px 5px 8px #bcbcbc;
+    text-align: left;
+
+}
+
+#favoriteDayItem h5 {
+  font-size: 2.5em;
+
+}
+
+#favoriteDayItem p {
+  font-size: 1.5em;
+  position: relative;
+  bottom: 0;
+  left: 20%;
+}
+
+
+
+#considerationItem{
+  font-family: 'Berkshire Swash', cursive;
+  position: absolute;
+  top: 30%;
+  right: 0;
+  left: 0;
+  text-shadow: 1px 1px 3px #000, 3px 3px 5px #3c3c3c, 5px 5px 8px #bcbcbc;
+
+}
+
+#considerationItem h5 {
+  font-size: 2em;
+  letter-spacing:4px;
+
+}
+#considerationItem p{
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  position: relative;
+  bottom: 0;
+  left: 30%;
+  
+
+
+}
+
+#askSomeoneItem{
+  font-family: 'Carter One', cursive;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px #3c3c3c, 5px 5px 8px #000;
+  position: absolute;
+  right: 0;
+  top: 40%;
+  left: 5%;
+  bottom: 0;
+ 
+
+
+}
+#askSomeoneItem h5{
+  font-size: 2em;
+  text-align: left;
+  line-height: 1.5;
+  letter-spacing: 2px;
+
+}
+#askSomeoneItem h5 span {
+  position: relative;
+  left: 25%;
+}
+
+
+#askSomeoneItem p{
+  letter-spacing: 1px;
+  position: relative;
+  bottom: 0;
+
+  left: 22%;
+
+}
+
+#makeMeMeItem{
+  font-family: 'Leckerli One', cursive;
+  color: #000;
+  text-shadow: 1px 1px 3px #fcfcfc, 3px 3px 5px #e1e1e1, 3px 3px 10px #000;
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  top: 35%;
+  right: 40%;
+  left: 0;
+
+
+}
+
+#makeMeMeItem h5 {
+  font-size: 2em;
+
+}
+#makeMeMeItem p{
+font-size: 1.5em;
+position: relative;
+left: 30%;
+
+}
+/* end about me page */
+
+#backToTop {
+  display: flex; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none;
+  background-color: #fff;
+  color: #5f6368;
+  cursor: pointer; 
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 1.2em;
+  box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 2px 6px 2px rgba(60,64,67,.15);
+  appearance: button;
+  align-items: center;
+  vertical-align: middle;
+  height: 56px;
+  width: 56px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+   min-width: 0;
+  overflow: visible;
+  -webkit-transition-duration: .2s;
+  transition-duration: .2s;
+  -webkit-transition-property: background-color,color;
+  transition-property: background-color,color;
+  -webkit-transition-timing-function: cubic-bezier(.4,0,1,1);
+  transition-timing-function: cubic-bezier(.4,0,1,1);
+
+}
+
+#backToTop:hover, #backToTop:focus{
+  color: #000;
+  background-color: rgba(255,255,255,0.4);
+
+}
+
+  
+  
+
+/* footer */
+footer {
+    background: transparent;
+    
+
+
+}
+#copyrights {
+  font-size: 0.5em;
+  
+}
+
+
+footer i{
+  margin: 5%;
+
+}
+
+
+.fa-linkedin {
+  color: #007bb5;
+
+}
+
+.fa-envelope-square{
+  color: #f39c12;
+}
+/* end footer */
+/* media queries */
+
+
+
+
+}
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+  .card-columns {
+    -webkit-column-count:4;
+    -moz-column-count:4;
+    column-count:4;
+    -webkit-column-gap: 1.25rem;
+    -moz-column-gap: 1.25rem;
+    column-gap: 1.25rem;
+    orphans: 1;
+    widows: 1;
+}
+
+}
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+  #askSomeoneItem h5{
+    font-size: 1.5em;
+  }
+  #makeMeMeItem h5 {
+  font-size: 1.5em;
+
+}
+#makeMeMeItem p{
+font-size: 1em;
+
+}
+.card-columns {
+    -webkit-column-count:2;
+    -moz-column-count:2;
+    column-count:2;
+    -webkit-column-gap: 1.25rem;
+    -moz-column-gap: 1.25rem;
+    column-gap: 1.25rem;
+    orphans: 1;
+    widows: 1;
+}
+}
+
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+  #favoriteDayItem h5 {
+  font-size: 1.9em;
+
+}
+#favoriteDayItem p {
+  font-size: 1em;
+
+}
+  #favoriteDayItem h5 {
+  font-size: 2em;
+
+}
+#favoriteDayItem p {
+  font-size: 1em;
+
+}
+#askSomeoneItem h5 {
+  font-size: 1em;
+}
+#askSomeoneItem p{
+  font-size: 0.8em;
+}
+#makeMeMeItem h5 {
+  font-size: 1.3em;
+
+}
+#makeMeMeItem p{
+font-size: 1em;
+
+}
+.card-columns {
+    -webkit-column-count:1;
+    -moz-column-count:1;
+    column-count:1;
+    -webkit-column-gap: 1.25rem;
+    -moz-column-gap: 1.25rem;
+    column-gap: 1.25rem;
+    orphans: 1;
+    widows: 1;
+}
+body {
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, 
+                                  rgba(0,0,0,1) 65%, 
+                                  rgba(0,0,0,0.6) 75%,
+                                  
+                                 
+                                  rgba(255,131, 129, 0.7) 83%,
+                                  rgba(156,207,210,0.6) 95%, 
+                                  
+                                  rgba(156,207,210,0.9) 100%);
+}
+
+
+}
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    #favoriteDayItem h5 {
+  font-size: 1.5em;
+
+}
+
+  #considerationItem h5{
+    font-size: 1em;
+    }
+    #considerationItem p{
+      font-size: 0.9em;
+    }
+    #askSomeoneItem h5{
+      letter-spacing: 0;
+      font-size: 0.9em;
+      
+    }
+    #askSomeoneItem p{
+      font-size: 0.7em;
+      letter-spacing: 0;
+    }
+    #makeMeMeItem h5 {
+  font-size: 1em;
+
+}
+#makeMeMeItem p{
+font-size: 0.9em;
+
+}
+#myNav{
+ background-color: rgba(255,255, 255, 0.4);
+
+}
+div#skillsContainer.container{
+  margin-top: 30%;
+}
+
+}
+
+
