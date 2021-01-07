@@ -215,6 +215,8 @@ text-shadow: 2px 4px 5px #f39c12;
   font-family: "Times New Roman", Times, serif;
   font-size: 1.5em;
   margin: 5%;
+  color: #fff;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 }
 #introMainPage h5{
   font-family: 'Frijole', cursive;
@@ -331,35 +333,47 @@ div#skillsContainer.container{
 
 
 
-.credential h5 button, .fa-certificate {
-   font-family: 'Righteous', cursive;
-  font-weight: bold;
-  font-size: 1em;
-  text-shadow: 0px 15px 15px #234D3C;
+.fa-certificate {
+   
+  text-shadow:-15px -8px 15px #234D3C;
   border: none;
-  border-radius: none;
-   background: -webkit-linear-gradient(45deg, #3cb371, #1295e8 80%);
+  color: #1295e8;
+   background: linear-gradient(45deg, #3cb371, #1295e8 80%);
+   
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;  
-
   
   }
 
+
+.credential h5 button{
+  font-family: 'Righteous', cursive;
+  font-weight: bold;
+  font-size: 1em;
+  border: none;
+  color: #1295e8;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, -20px -10px 15px #234D3C;
+}
+
+.credential h5 button:hover, .credential h5 button:focus {
+  box-shadow: none;
+  border: none;
+  color: #3cb371;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 20px 10px 15px #234D3C;
+
+}
 
 .credential p {
   
    font-size: 1em;
    font-family: 'Redressed', cursive;
-     background: -webkit-linear-gradient(45deg, #3cb371, #1295e8 80%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+   color: #3cb371;
+   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
     position: relative;
     left: 5%;
 
    
-  
-  
-
+ 
 }
 
 
@@ -633,7 +647,6 @@ left: 30%;
   border-radius: 50%;
   font-size: 1.2em;
   box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 2px 6px 2px rgba(60,64,67,.15);
-  appearance: button;
   align-items: center;
   vertical-align: middle;
   height: 56px;
@@ -691,19 +704,16 @@ footer i{
   color: #f39c12;
 }
 /* end footer */
+
 /* media queries */
 
-
-
-
-}
 
 /*Large devices (desktops, less than 1200px)*/
 @media (max-width: 1199.98px) {
   .card-columns {
-    -webkit-column-count:4;
-    -moz-column-count:4;
-    column-count:4;
+    -webkit-column-count:3;
+    -moz-column-count:3;
+    column-count:3;
     -webkit-column-gap: 1.25rem;
     -moz-column-gap: 1.25rem;
     column-gap: 1.25rem;
