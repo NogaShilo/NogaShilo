@@ -11,20 +11,11 @@ html {
 body {
   
  background: rgb(156,207,210);
-background: linear-gradient(0deg, rgba(0,0,0,1) 0%, 
-                                  rgba(0,0,0,1) 60%, 
-                                  rgba(0,0,0,0.6) 70%,
-                                  rgba(60,60,60,0.7) 75%,
-                                 
-                                  rgba(255,131, 129, 0.6) 79%,
-                                   
-                                  
-                                  rgba(180,180,180,0.9) 100%);
- 
+ background: url('../images/workBg.jpg') no-repeat center center fixed;
  position: relative; 
   height: 100%;
   width: 100%; 
-
+   
   }
 
 .container-fluid {
@@ -358,17 +349,22 @@ div#skillsContainer.container{
 .credential h5 button:hover, .credential h5 button:focus {
   box-shadow: none;
   border: none;
-  color: #3cb371;
+
   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 20px 10px 15px #234D3C;
 
 }
 
+.credential h5 button:hover {
+    color: #3cb371;
+}
+
 .credential p {
   
-   font-size: 1em;
+   font-size: 1.2em;
    font-family: 'Redressed', cursive;
-   color: #3cb371;
-   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+   color:  none;
+  color: #fff;
+   text-shadow: -1px 0 #1295e8, 0 1px #1295e8, 1px 0 #1295e8, 0 -1px #1295e8;
     position: relative;
     left: 5%;
 
@@ -384,7 +380,7 @@ div#skillsContainer.container{
   font-size: 1em;
   font-family: 'Redressed', cursive;
   cursor: pointer;
-  color: #1295e8;
+  color:  #2779F6;
   letter-spacing: 1.5px;
     -webkit-transition: letter-spacing .5s ease;
   -moz-transition: letter-spacing .5s ease;
@@ -411,7 +407,7 @@ div#skillsContainer.container{
 
 
 #myWorkPage{
-  background: url('../images/workBg.jpg') no-repeat center center fixed;
+ 
 
 }
  #myWorkLinks {
@@ -488,6 +484,9 @@ div#skillsContainer.container{
 }
 .card a{
   text-decoration: none;
+}
+small a{
+  color: #075ac1;
 }
 .card-text small:hover, .card-text small:focus{
   text-decoration-line: underline;

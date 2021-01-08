@@ -16,15 +16,15 @@
   <body data-spy="scroll" data-target="#navbarMenu" data-offset="0">
     
       <header>
-        <nav class="nav navbar-expand-sm fixed-top" id="myNav">
+        <nav class="nav navbar-expand-sm fixed-top" id="myNav" aria-label="Navigation">
             <button id="navbarTogglerBtn" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
               </button>
             <div class="collapse navbar-collapse" id="navbarMenu">
               <div class="nav navbar-nav">
-                <a class="nav-item nav-link active" id="nav-home" href="#mainPage"><i class="fas fa-home"></i></a>
-                 <a class="nav-item nav-link" id="nav-skills"  href="#skillsPage">Skills</a>
-                <a class="nav-item nav-link" id="nav-myWork" href="#myWorkPage">My work</a>
-                 <a class="nav-item nav-link" id="nav-aboutMe" href="#aboutMePage">About me</a>
+                <a class="nav-item nav-link active" id="nav-home" href="#mainPage" aria-label="Main Page"><i class="fas fa-home" aria-label="Main Page" ></i></a>
+                 <a class="nav-item nav-link" id="nav-skills"  href="#skillsPage" aria-label="Skills Page">Skills</a>
+                <a class="nav-item nav-link" id="nav-myWork" href="#myWorkPage" aria-label="My Work Page">My work</a>
+                 <a class="nav-item nav-link" id="nav-aboutMe" href="#aboutMePage" aria-label="About me Page">About me</a>
               </div>
             </div>
             
@@ -46,10 +46,10 @@
                   <p>I am a <span id="webDevIntro">web developer</span>.<br>I am <span class="charIntro">creative, friendly</span> and <span class="charIntro">open-minded</span>.<br>I speak <span class="languageIntro">English, Hebrew</span> and <span class="languageIntro">German</span><br>and I <span id="love">love</span> learning new things.<p>
                 </div>
                 <div id="social-part" class="col-lg-12 text-center">
-                  <a href="https://www.linkedin.com/in/noga-shilo" target="_blank">
-                  <i class="fab fa-linkedin social fa-2x"></i></a>
-                  <a href="mailto:nogashilo@gmail.com">
-                  <i class="fa fa-envelope-square social fa-2x"></i></a>
+                    <a href="https://www.linkedin.com/in/noga-shilo" target="_blank" aria-label="to my LinkedIn">
+                  <i aria-label="to my LinkedIn" class="fab fa-linkedin social fa-2x"></i></a>
+                  <a href="mailto:nogashilo@gmail.com" aria-label="Email me">
+                  <i class="fa fa-envelope-square social fa-2x" aria-label="Email me"></i></a>
                  </div>              
               </div>
             </div>
@@ -58,10 +58,10 @@
             <div id="skillsContainer" class="container">
               <div class="col">
                 <div id="skillIcons" class="row">
-                  <i class="fab fa-html5 fa-3x"></i>
-                  <i class="fab fa-css3-alt fa-3x"></i>
-                  <i class="fab fa-js fa-3x"></i>
-                  <i class="fab fa-bootstrap fa-3x"></i>
+                  <i class="fab fa-html5 fa-3x" aria-label="icon HTML5"></i>
+                  <i class="fab fa-css3-alt fa-3x" aria-label="icon CSS3"></i>
+                  <i class="fab fa-js fa-3x" aria-label="icon JavaScript"></i>
+                  <i class="fab fa-bootstrap fa-3x" aria-label="icon Bootstrap"></i>
                 </div>
               </div>
               <div id="myEducationLinks" class="col-md-12">
@@ -70,45 +70,45 @@
                   <div class="credential ">
                     <div class="text-left" id="headingOne">
                       <h5>
-                      <button class="btn collapsed text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        <i class="fas fa-certificate"></i> UX Desginer - UX Nanodegree 
+                      <button class="btn collapsed text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="flase" aria-controls="collapseOne" aria-label="see credential">
+                        <i class="fas fa-certificate" aria-label="credential"></i> UX Desginer - UX Nanodegree 
                       </button>
                       </h5>
                     </div>
                     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionCredentials">
                       <div class="">
                         <p>UX Fundamentals and Design<br>UX Research<br>Low and High-Fidelity Prototyping<br>Post-Launch Analysis</p>
-                        <a href="https://graduation.udacity.com/confirm/VHDER2HF" target="_blank">credential</a>
+                        <a href="https://graduation.udacity.com/confirm/VHDER2HF" target="_blank" aria-label="credential">credential</a>
                       </div>
                     </div>
                   </div>
                   <div class="credential ">
                     <div class="text-left" id="headingTwo">
                       <h5>
-                        <button class="btn collapsed text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          <i class="fas fa-certificate"></i> HTML, CSS and Javascript for Web developers 
+                        <button class="btn collapsed text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" aria-label="see credential">
+                          <i class="fas fa-certificate" aria-label="credential"></i> HTML, CSS and Javascript for Web developers 
                         </button>
                       </h5>
                     </div>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionCredentials">
                       <div class="">
                         <p>Introduction to HTML5<br>Introduction to CSS3<br>Introduction to Javascript<br>Using Javascript to build Web Applications</p>
-                        <a href="https://www.coursera.org/account/accomplishments/certificate/AFFB69DMCAEB" target="_blank">credential</a>
+                        <a href="https://www.coursera.org/account/accomplishments/certificate/AFFB69DMCAEB" target="_blank" aria-label="credential">credential</a>
                       </div>
                     </div>
                   </div>
                   <div class="credential ">
                     <div class="text-left" id="headingThree">
                       <h5>
-                        <button class="btn collapsed text-left" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          <i class="fas fa-certificate"></i> Web Design: Basics of Web Development & Coding Specialization 
+                        <button class="btn collapsed text-left" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" aria-label="see credential">
+                          <i class="fas fa-certificate" aria-label="credential"></i> Web Design: Basics of Web Development & Coding Specialization 
                         </button>
                       </h5>
                     </div>
                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionCredentials">
                       <div class="">
                         <p>Introduction to HTML5<br>Introduction to CSS3<br>Interactivity with Javascript<br>Advanced Styling with Resposive Desgin</p>
-                        <a href="https://coursera.org/share/153ebafe51ed0d609623917e6ea5482c" target="_blank">credential</a>
+                        <a href="https://coursera.org/share/153ebafe51ed0d609623917e6ea5482c" target="_blank" aria-label="credential">credential</a>
                       </div>
                     </div>
                   </div>
@@ -121,7 +121,7 @@
               <div class="container">
                 <div id="myWorkLinks" class="card-columns">
                   <div class="card">
-                    <img class="card-img-top" src="images/projectPic1.jpg" alt="rainbow colored smoke">
+                    <img class="card-img-top" src="images/projectPic1.jpg" width="360" height="240" alt="rainbow colored smoke">
                     <div class="card-body">
                       <h5 class="card-title">Highlighted project Name</h5>
                        <p class="card-text">Here would be a short description of a highlighted project. This description can be very long as well. Coming soon</p>
@@ -130,41 +130,41 @@
                   </div>
                   <div class="card">
                     <div class="link">                 
-                      <a href="https://github.com/NogaShilo" target="_blank" class="text-center"><i class="fab fa-github fa-3x"></i><br>My GitHub</a>
+                      <a href="https://github.com/NogaShilo" target="_blank" class="text-center"  aria-label="my GitHub"><i class="fab fa-github fa-3x" aria-label="GitHub"></i><br>My GitHub</a>
                     </div>
                   </div>  
                 <div class="card">
-                  <a href="https://nogashilo.github.io/projects/funFilterJS/index" target="_blank">
+                  <a href="https://nogashilo.github.io/projects/funFilterJS/index" target="_blank"  aria-label="link to Project">
                     <div class="card-body">                    
                       <h5 class="card-title">Fun Filter JS</h5>
                       <p class="card-text">Using Javascript I built an interactive web page where a user can upload an image and apply filters to it. this was my final project in the course "Programming Foundations with JavaScript".</p>
                       <p class="card-text"><small class="text-primary">
-                      <a href="https://nogashilo.github.io/projects/funFilterJS/index" target="_blank">go to Fun Filter JS</a></small></p>                  
+                      <a href="https://nogashilo.github.io/projects/funFilterJS/index" target="_blank"  aria-label="link to Project">go to Fun Filter JS</a></small></p>                  
                     </div>
                   </a>
                 </div>
                 <div class="card">
-                  <a href="https://nogashilo.github.io/courseraWebDeveloper/module5_solution/index" target="_blank">
-                    <img class="card-img-top" src="images/projectPic2.jpg" alt="David Chu's China Bistro">
+                  <a href="https://nogashilo.github.io/courseraWebDeveloper/module5_solution/index" target="_blank"  aria-label="link to Project">
+                    <img class="card-img-top" width="360" height="202" src="images/projectPic2.jpg" alt="David Chu's China Bistro">
                     <div class="card-body">                      
                       <h5 class="card-title">David Chu's China Bistro</h5>
                        <p class="card-text">This chinease restaurant web-page project was built during the course "HTML, CSS and JavaScript for Web-developers" from scratch using JavaScript to manipulate components using DOM API, Ajax to set up and handle requests and responses from the server and Json to process data.</p>
-                      <p class="card-text"><small class="text-primary"><a href="https://nogashilo.github.io/courseraWebDeveloper/module5_solution/index" target="_blank">go to David Chu's China Bistro</a></small></p>
+                      <p class="card-text"><small class="text-primary"><a href="https://nogashilo.github.io/courseraWebDeveloper/module5_solution/index" target="_blank"  aria-label="link to Project">go to David Chu's China Bistro</a></small></p>
                     </div>
                   </a>
                 </div>
                 <div class="card">
                   <div class="link">                 
-                    <a href="https://codepen.io/NogaShilo" target="_blank"><i class="fab fa-codepen fa-3x"></i><br>My CodePen</a>                   
+                    <a href="https://codepen.io/NogaShilo" target="_blank" aria-label="to my Codepen"><i class="fab fa-codepen fa-3x"  aria-label="Codepen"></i><br>My CodePen</a>                   
                   </div>
                 </div>
                   <div class="card">
-                    <a href="https://docs.google.com/presentation/d/1Td_HcesGpzr908tp_H5w4kwfyT7IsNPLBXanf8Ijvz8/edit?usp=sharing" target="_blank">
-                      <img class="card-img-top" src="images/projectPic3.jpg" alt="three cups of cofee">
+                    <a href="https://docs.google.com/presentation/d/1Td_HcesGpzr908tp_H5w4kwfyT7IsNPLBXanf8Ijvz8/edit?usp=sharing" target="_blank" aria-label="link to Project">
+                      <img class="card-img-top" width="360" height="240" src="images/projectPic3.jpg" alt="three cups of cofee">
                       <div class="card-body">
                         <h5 class="card-title">Udacity offee-shop </h5>
                         <p class="card-text">As part of an UX design course I created a design for an online coffee-order platform using Miro, Figma and Zeplin. The project started with collecting data, conducting research and surveys. After analyzing the data, I started idea-pitching and evaluating ideas. This was followed by prototyping, testing and itterating.</p>
-                        <p class="card-text"><small class="text-primary"><a href="https://docs.google.com/presentation/d/1Td_HcesGpzr908tp_H5w4kwfyT7IsNPLBXanf8Ijvz8/edit?usp=sharing" target="_blank">go to Udacity coffee-shop</small></p>
+                        <p class="card-text"><small class="text-primary"><a href="https://docs.google.com/presentation/d/1Td_HcesGpzr908tp_H5w4kwfyT7IsNPLBXanf8Ijvz8/edit?usp=sharing" target="_blank" aria-label="link to Project">go to Udacity coffee-shop</small></p>
                       </div>
                     </a>
                   </div>
@@ -211,8 +211,8 @@
                       </div>
                   </div>
                </div>
-                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev"><span><i class="fa fa-angle-left fa-2x" aria-hidden="true"></i></span></a>
-                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next"><span><i class="fa fa-angle-right fa-2x" aria-hidden="true"></i></span></a>
+                <a class="carousel-control-prev" href="#myCarousel" aria-label="Previous"role="button" data-slide="prev"><span><i class="fa fa-angle-left fa-2x" aria-hidden="true" aria-label="Previous"></i></span></a>
+                <a class="carousel-control-next" href="#myCarousel" aria-label="Next" role="button" data-slide="next"><span><i class="fa fa-angle-right fa-2x" aria-hidden="true" aria-label="Next"></i></span></a>
               </div>
           </div>
           
@@ -222,15 +222,15 @@
           <footer class="footer text-center">
                  <div class="containter text-center">
             
-                  <a href="https://www.linkedin.com/in/noga-shilo" target="_blank">
-                  <i class="fab fa-linkedin social fa-2x"></i></a>
-                  <a href="mailto:nogashilo@gmail.com">
-                  <i class="fa fa-envelope-square social fa-2x"></i></a>
+                  <a href="https://www.linkedin.com/in/noga-shilo" target="_blank" aria-label="to my LinkedIn">
+                  <i aria-label="to my LinkedIn" class="fab fa-linkedin social fa-2x"></i></a>
+                  <a href="mailto:nogashilo@gmail.com" aria-label="Email me">
+                  <i class="fa fa-envelope-square social fa-2x" aria-label="Email me"></i></a>
             
             </div>
             <p id="copyrights" class="text-muted">&copy; Noga Shilo 2020</p>
           </footer>
-           <button onclick="topFunction()" id="backToTop" title="Go to top"><i class="fas fa-angle-up"></i></button>
+           <button onclick="topFunction()" id="backToTop" title="Go to top" aria-label="To page top"><i class="fas fa-angle-up"></i></button>
 
 
 
