@@ -10,16 +10,18 @@ html {
  }
 body {
   
- background: rgb(156,207,210);
- background: url('../images/workBg.jpg') no-repeat center center fixed;
+ background: #000;
+ 
  position: relative; 
   height: 100%;
   width: 100%; 
    
   }
-
-.container-fluid {
-  
+.blurBg{ 
+  -webkit-backdrop-filter: blur(10px);
+ backdrop-filter: blur(10px);
+}
+.container-fluid {  
   margin: 0;
   padding: 0;
 
@@ -94,6 +96,9 @@ body {
 #mainPage{
  height: 100vh;
  background: url('../images/mainBg.jpg') no-repeat center center fixed;
+
+
+
 }
 
 
@@ -107,7 +112,8 @@ body {
   font-size: 6em;
 
     padding: 0;
-
+ -webkit-backdrop-filter: blur(10px);
+ backdrop-filter: blur(10px);
   
   text-shadow: 0 0.1em 20px #000, 0.05em -0.03em 0 #000,
     0.05em 0.005em 0 #000, 0em 0.08em 0 #000,
@@ -208,6 +214,7 @@ text-shadow: 2px 4px 5px #f39c12;
   margin: 5%;
   color: #fff;
   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+ 
 }
 #introMainPage h5{
   font-family: 'Frijole', cursive;
@@ -247,12 +254,14 @@ font-family: 'Emilys Candy', cursive;
 #skillsPage{
 
 height: 100vh;
-
+background: url('../images/Bg1.jpg') no-repeat center center fixed;
+}
+#skillsContainer {
+  
+position: relative;
+top: 25%;
 }
 
-div#skillsContainer.container{
-  margin-top: 20%;
-}
 .fa-bootstrap {
   color: #563d7c;
   animation-duration: 2s;
@@ -295,9 +304,6 @@ div#skillsContainer.container{
         100% { transform: scale(1,1)      translateY(0); }
     }
 #skillIcons {
- 
-  margin: 5%;
-  
   text-shadow: 1px 1px 1px #000, 2px 2px 5px #000000cf, 4px 4px 8px #000000cf;
   
 } 
@@ -317,8 +323,8 @@ div#skillsContainer.container{
  #myEducationLinks h3{
   font-size: 1.8em;
   font-family: 'Dancing Script', cursive;
-  color: #3cb371;
-  text-shadow: 1px 1px 1px #3c3c3c;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000, 2px 2px 1px #000;
 
  }
 
@@ -342,7 +348,7 @@ div#skillsContainer.container{
   font-weight: bold;
   font-size: 1em;
   border: none;
-  color: #1295e8;
+  color: #fff;
   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, -20px -10px 15px #234D3C;
 }
 
@@ -355,7 +361,7 @@ div#skillsContainer.container{
 }
 
 .credential h5 button:hover {
-    color: #3cb371;
+    color: #1295e8;
 }
 
 .credential p {
@@ -407,13 +413,11 @@ div#skillsContainer.container{
 
 
 #myWorkPage{
- 
+  background: url('../images/Bg2.jpg') no-repeat center center fixed;
+  
 
 }
- #myWorkLinks {
-  margin: 10%;
-  padding-top: 5%;
- }
+
 
 
 .link { 
@@ -494,14 +498,6 @@ small a{
 /* end my work page */
 
 /* about me page */
-
-#aboutMePage {
-background: rgba(255,255,255, 0.7)
-
-
-}
-
-
 
 
 .carousel-indicators li{
@@ -677,11 +673,10 @@ left: 30%;
 
 /* footer */
 footer {
-    background: transparent;
+    background: #000;
     
-
-
 }
+
 #copyrights {
   font-size: 0.5em;
   
@@ -825,9 +820,7 @@ font-size: 0.9em;
  background-color: rgba(255,255, 255, 0.4);
 
 }
-div#skillsContainer.container{
-  margin-top: 30%;
-}
+
 
 }
 
