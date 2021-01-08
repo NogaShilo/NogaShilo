@@ -789,17 +789,7 @@ font-size: 1em;
     orphans: 1;
     widows: 1;
 }
-body {
-  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, 
-                                  rgba(0,0,0,1) 65%, 
-                                  rgba(0,0,0,0.6) 75%,
-                                  
-                                 
-                                  rgba(255,131, 129, 0.7) 83%,
-                                  rgba(156,207,210,0.6) 95%, 
-                                  
-                                  rgba(156,207,210,0.9) 100%);
-}
+
 
 
 }
