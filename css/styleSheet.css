@@ -11,7 +11,7 @@ html {
 body {
   
  background: rgb(156,207,210);
- background: url('../images/workBg.jpg') no-repeat center center fixed;
+ background: url('../images/workBg.png') no-repeat center center fixed;
  position: relative; 
   height: 100%;
   width: 100%; 
@@ -93,7 +93,7 @@ body {
 
 #mainPage{
  height: 100vh;
- background: url('../images/mainBg.jpg') no-repeat center center fixed;
+ background: url('../images/mainBg.png') no-repeat center center fixed;
 }
 
 
