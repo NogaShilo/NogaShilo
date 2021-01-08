@@ -259,7 +259,7 @@ background: url('../images/Bg1.jpg') no-repeat center center fixed;
 #skillsContainer {
   
 position: relative;
-top: 25%;
+top: 20%;
 }
 
 .fa-bootstrap {
@@ -361,7 +361,7 @@ top: 25%;
 }
 
 .credential h5 button:hover {
-    color: #1295e8;
+    color: #07c24e;
 }
 
 .credential p {
@@ -370,7 +370,7 @@ top: 25%;
    font-family: 'Redressed', cursive;
    color:  none;
   color: #fff;
-   text-shadow: -1px 0 #1295e8, 0 1px #1295e8, 1px 0 #1295e8, 0 -1px #1295e8;
+   text-shadow: -1px 0 #07c24e, 0 1px #07c24e, 1px 0 #07c24e, 0 -1px #07c24e;
     position: relative;
     left: 5%;
 
@@ -384,15 +384,18 @@ top: 25%;
 .credential a {
   
   font-size: 1em;
-  font-family: 'Redressed', cursive;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
   cursor: pointer;
   color:  #2779F6;
+
   letter-spacing: 1.5px;
     -webkit-transition: letter-spacing .5s ease;
   -moz-transition: letter-spacing .5s ease;
   -o-transition: letter-spacing .5s ease;
   transition: letter-spacing .5s ease;
-  text-decoration-line: underline;
+  
   position: relative;
   left: 5%;
 
@@ -402,7 +405,7 @@ top: 25%;
 .credential a:hover, .credential a:focus {
   
   text-shadow: 3px 3px 6px #3cb371, 6px 6px 12px #1295e8;
-  
+  text-decoration-line: underline;
   letter-spacing: 3px;
   
 }
@@ -413,7 +416,7 @@ top: 25%;
 
 
 #myWorkPage{
-  background: url('../images/Bg2.jpg') no-repeat center center fixed;
+  background: url('../images/Bg1.jpg') no-repeat center center fixed;
   
 
 }
@@ -674,14 +677,18 @@ left: 30%;
 /* footer */
 footer {
     background: #000;
-    
+
 }
 
 #copyrights {
   font-size: 0.5em;
+
   
 }
-
+#copyrights:hover{
+  
+text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+}
 
 footer i{
   margin: 5%;
