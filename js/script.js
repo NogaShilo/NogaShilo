@@ -1,14 +1,8 @@
 //lozad lazy load
 
 
-lozad('.lozad', {
-    load: function(el) {
-        el.src = el.dataset.src;
-        el.onload = function() {
-            el.classList.add('fade')
-        }
-    }
-}).observe()
+const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+observer.observe();
 
 
 
