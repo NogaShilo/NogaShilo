@@ -90,7 +90,7 @@ body {
 
 #mainPage{
  height: 100vh;
- background: url('../images/mainBg.jpg') no-repeat center center fixed;
+ background: no-repeat center center fixed;
 
 
 
@@ -246,7 +246,7 @@ font-family: 'Emilys Candy', cursive;
 #skillsPage{
 
 height: 100vh;
-background: url('../images/Bg1.jpg') no-repeat center center fixed;
+background:  no-repeat center center fixed;
 }
 #skillsContainer {
   
@@ -408,7 +408,7 @@ top: 20%;
 
 
 #myWorkPage {
-  background: url('../images/Bg1.jpg') no-repeat center center fixed;
+  background: no-repeat center center fixed;
   
 
 }
@@ -512,7 +512,7 @@ small a{
 #favoriteDayItem {
   font-family: 'Miltonian Tattoo',cursive;
   color: #000;
-    position: absolute;
+  position: absolute;
     right: 0;
     top: 5%;
     left: 50%;
