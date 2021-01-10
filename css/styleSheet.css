@@ -10,9 +10,7 @@ html {
  }
 body {
   
- background: #000;
- 
- position: relative; 
+  position: relative; 
   height: 100%;
   width: 100%; 
    
@@ -52,12 +50,9 @@ body {
 #myNav .nav-link {
  
   font-family: 'Kanit', sans-serif;
-  font-size: 1.2em;
- 
+  font-size: 1.2em; 
   color: #000;
-  text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
-
-    
+  text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;    
   border-bottom: 4px solid transparent;
 
 
@@ -231,11 +226,8 @@ text-shadow: 2px 4px 5px #f39c12;
   font-family: 'Redressed', cursive;
   font-size: 1.2em;
   text-shadow: 1px 1px 1px #000;
-
   
 }
-
-
 
 .charIntro{
 font-family: 'Emilys Candy', cursive;
@@ -415,7 +407,7 @@ top: 20%;
 /* my work page */
 
 
-#myWorkPage{
+#myWorkPage {
   background: url('../images/Bg1.jpg') no-repeat center center fixed;
   
 
@@ -520,8 +512,7 @@ small a{
 #favoriteDayItem {
   font-family: 'Miltonian Tattoo',cursive;
   color: #000;
-  
-  position: absolute;
+    position: absolute;
     right: 0;
     top: 5%;
     left: 50%;

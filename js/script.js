@@ -1,3 +1,14 @@
+//lozad lazy load
+
+const observer = lozad();
+observer.observe();
+
+
+observer.observe(); // observes newly added elements as wel
+
+//end lozad
+
+
 //image bootstrap carousel
 
 var myCarousel = document.querySelector('#myCarousel')
@@ -16,7 +27,7 @@ $('body').scrollspy({ target: '#navbarMenu' })
 //Get the button:
 mybutton = document.getElementById("backToTop");
 
-// When the user scrolls down 20px from the top of the document, show the button
+// When the user scrolls down show the button
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
