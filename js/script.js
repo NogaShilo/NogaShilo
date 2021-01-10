@@ -1,10 +1,16 @@
 //lozad lazy load
 
-const observer = lozad();
-observer.observe();
+
+lozad('.lozad', {
+    load: function(el) {
+        el.src = el.dataset.src;
+        el.onload = function() {
+            el.classList.add('fade')
+        }
+    }
+}).observe()
 
 
-observer.observe(); // observes newly added elements as wel
 
 //end lozad
 
