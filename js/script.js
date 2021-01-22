@@ -45,36 +45,11 @@ function topFunction() {
 }
 //end back to top button
 
-//navbartoggler fix
+//navbartoggler button fix - hide when click
 
 $('.navbar-nav>a').on('click', function(){
     $('.navbar-collapse').collapse('hide');
 });
 
-//end navbartoggler fix
-
-//console messege
-const style1 =[
-	'color: #00daff',
-  'text-shadow: 2px 2px #6a5acd', 
-  'background: #e3cbff', 
-  'font-size: 2em',
-  'border: 1px solid #6a5acd',
-  'padding: 20px',
-  'font-family: cursive;'
-].join(';');
-
-1
-console.log('%cWelcome to my Portfolio', style1);
-
-const style2 =[ 
-     'background-image: url(https://ux.christmas//static/teaser-1-95bcc16151dc1d561bd79ede903e9e7c.jpg)', 
-     'background-size: cover', 
-     'color: #fff', 
-     'padding: 20px', 
-     'font-size: 1.5em',  
-     'text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;'
-      ].join(';');
-console.log('%ci hope you enjoy it!', style2);
-
+//end navbartoggler button fix
 
