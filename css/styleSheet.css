@@ -12,7 +12,8 @@ body {
   
   position: relative; 
   height: 100%;
-  width: 100%; 
+  width: 100%;
+   background: url(../images/mainBg.jpg) no-repeat center center fixed;
    
   }
 .blurBg{ 
@@ -218,7 +219,7 @@ text-shadow: 2px 4px 5px #f39c12;
   font-size: 1.5em;
 
 }
-#webDevIntro {
+.webDevIntro {
   font-family: 'Righteous', cursive;
 
 
@@ -409,11 +410,7 @@ top: 20%;
 /* my work page */
 
 
-#myWorkPage {
-  background: url(../images/Bg1.jpg) no-repeat center center fixed;
-  
 
-}
 
 
 
@@ -450,6 +447,7 @@ top: 20%;
 
 #myWorkLinks { 
   visibility: hidden; 
+
 }
 
 
